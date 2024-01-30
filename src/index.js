@@ -8,4 +8,4 @@ locationBtn.addEventListener("click",getCurrentLocationWeather);
 
 
 
-
+console.log("test");
