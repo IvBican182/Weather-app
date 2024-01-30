@@ -12,6 +12,8 @@ export function displayWeather(data) {
     weatherInfoDiv.innerHTML = '';
     hourlyForecastDiv.innerHTML = '';
     tempDivInfo.innerHTML = '';
+    humiDivInfo.innerHTML = '';
+    windDivInfo.innerHTML = '';
 
     if (data.cod === '404') {
         weatherInfoDiv.innerHTML = `<p>${data.message}</p>`;
